@@ -1,0 +1,7 @@
+{
+  "name": "bower-gulp-koa-seed",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "normalize-css": "normalize.css#^4.2.0"
+  }
+}

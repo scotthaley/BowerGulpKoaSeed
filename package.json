@@ -1,0 +1,31 @@
+{
+  "name": "bower-gulp-koa-seed",
+  "version": "1.0.0",
+  "description": "Seed project using bower for frontend dependencies, gulp for building and watching files, koa for backend.",
+  "main": "index.js",
+  "scripts": {
+    "install": "gulp setup",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Haley",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-clean-css": "^2.0.11",
+    "gulp-concat": "^2.6.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-less": "^3.1.0",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-order": "^1.1.1",
+    "gulp-uglify": "^1.5.4",
+    "main-bower-files": "^2.13.1",
+    "merge-stream": "^1.0.0",
+    "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "koa": "^1.2.1",
+    "koa-swig": "^2.2.0"
+  }
+}
